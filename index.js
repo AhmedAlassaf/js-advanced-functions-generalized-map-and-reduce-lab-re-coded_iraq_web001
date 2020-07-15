@@ -6,5 +6,5 @@ function map(src, callBack){
 }
 
 function reduce(src, callBack, SP){
-  
+  let nVal = SP ? SP : src(0)
 }
