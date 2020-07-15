@@ -7,6 +7,6 @@ function map(src, callBack){
 
 function reduce(src, callBack, SP){
   let nVal = SP ? SP : src[0];
-  for (let i= )
+  for (let i= SP ? 0 : 1; i<src.length; i++)
   
 }
